@@ -28,7 +28,7 @@ const Header = () => {
     };
 
     document.addEventListener('mousedown', handleClickOutside);
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
@@ -48,7 +48,7 @@ const Header = () => {
             <p className="text-3xl text-white">IJDIII</p>
           </div>
         </Link>
-        
+
         {/* Hamburger Menu for mobile */}
         <div className="block lg:hidden">
           <HamburgerMenu
