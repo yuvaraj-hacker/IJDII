@@ -98,7 +98,7 @@ function Contactus() {
                       <div className="text-center ">
                         <button
                           type="submit"
-                          className="py-3 px-5 text-center text-sm bg-primary-blue-color hover:text-white  text-white rounded-lg bg-primary-red-color sm:w-fit  "
+                          className="py-3 px-5 text-center text-sm bg-[#4b2d8b] hover:text-white  text-white rounded-lg bg-primary-red-color sm:w-fit  "
                         >
                           Send message
                         </button>
@@ -110,7 +110,7 @@ function Contactus() {
                     For any queries contact Email :{' '}
                     <a
                       href="mailto:editor@IJDIII.com"
-                      className="text-blue-700 "
+                      className="text-[#4b2d8b] "
                     >
                       editor@IJDIII.com
                     </a>

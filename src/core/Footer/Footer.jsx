@@ -102,8 +102,8 @@ const Footer = () => {
           {/* Contact Information */}
           <div>
             <h4 className="text-xl font-bold mb-2">IJDIII </h4>
-            <p>Email: <a href="mailto:editor@IJDIII.com" className="text-blue-400">XXXX</a></p>
-            <p>Website: <a href="https://www.IJDIII.com" className="text-blue-400">XXXX</a></p>
+            <p>Email: <a href="mailto:editor@IJDIII.com" className="text-blue-400">editor@ijdiii.com</a></p>
+            <p>Website: <a href="https://www.IJDIII.com" className="text-blue-400">www.ijdiii.com</a></p>
           </div>
 
           {/* Navigation Links */}
