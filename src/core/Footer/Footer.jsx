@@ -140,7 +140,7 @@ const Footer = () => {
             <p>© 2024 IJDII. All Rights Reserved.</p>
           </div>
           <div>
-            <img className='ml-auto w-24' src="public/images/Herosection/ojs_brand.png" alt="ojs" />
+            <img className='ml-auto w-24' src="/images/Herosection/ojs_brand.png" alt="ojs" />
           </div>
         </div>
       </div>
