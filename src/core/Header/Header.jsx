@@ -1,6 +1,4 @@
-
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -11,8 +9,7 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
   const [menuOpen, setMenuOpen] = useState(false);
 
-
-
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -22,6 +19,22 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  // Close dropdown if clicked outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isDropdownOpen]);
+
+  // Reset dropdown and menu when route changes
   useEffect(() => {
     setIsDropdownOpen(false);
     setMenuOpen(false);
@@ -30,14 +43,12 @@ const Header = () => {
   return (
     <header className="bg-[#4b2d8b] p-4">
       <div className="container mx-auto flex justify-between items-center">
-
         <Link to='/'>
-
           <div className="flex items-center">
-            {/* <img src="logo.png" alt="logo" className="h-8 w-8" /> */}
             <p className="text-3xl text-white">IJDIII</p>
           </div>
         </Link>
+        
         {/* Hamburger Menu for mobile */}
         <div className="block lg:hidden">
           <HamburgerMenu
@@ -66,17 +77,16 @@ const Header = () => {
           </Link>
 
           {/* Dropdown for Journal Overview */}
-          <div className="relative">
+          <div className="relative" ref={dropdownRef}>
             <button
               onClick={toggleDropdown}
-              className="text-white hover:text-gray-300 inline-flex py-2 px-4  gap-2 focus:outline-none "
+              className="text-white hover:text-gray-300 inline-flex py-2 px-4 gap-2 focus:outline-none"
             >
               Journal Overview
               <IoMdArrowDropdown className={`${isDropdownOpen ? 'rotate-180' : 'rotate-0'} text-2xl duration-300`} />
             </button>
             {isDropdownOpen && (
-
-              <div className="absolute  lg:left-0 md:left-96 left-28 bg-white text-black mt-2 rounded shadow-lg w-56">
+              <div className="absolute lg:left-0 md:left-96 left-28 bg-white text-black mt-2 rounded shadow-lg w-56">
                 <Link
                   to="/aboutus"
                   className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/aboutus") ? "underline underline-offset-4" : ""}`}
@@ -97,7 +107,7 @@ const Header = () => {
                 </Link>
                 <Link
                   to="/publicationethic"
-                  className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/editorial-board") ? "underline underline-offset-4" : ""}`}
+                  className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/publicationethic") ? "underline underline-offset-4" : ""}`}
                 >
                   Publication Ethics
                 </Link>
@@ -113,28 +123,24 @@ const Header = () => {
                 >
                   Article Processing Charges
                 </Link>
-
                 <Link
                   to="/aim-nd-scope"
                   className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/aim-nd-scope") ? "underline underline-offset-4" : ""}`}
                 >
                   Aim and Scope
                 </Link>
-
                 <Link
                   to="/issues"
                   className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/issues") ? "underline underline-offset-4" : ""}`}
                 >
                   Issues
                 </Link>
-
                 <Link
                   to="/author-guidelines"
                   className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/author-guidelines") ? "underline underline-offset-4" : ""}`}
                 >
                   Author Guidelines
                 </Link>
-
                 <Link
                   to="/copyrights-form"
                   className={`block px-4 py-2 hover:bg-gray-200 ${isActive("/copyrights-form") ? "underline underline-offset-4" : ""}`}
@@ -142,9 +148,6 @@ const Header = () => {
                   Copyright Form
                 </Link>
               </div>
-
-
-
             )}
           </div>
 
@@ -159,7 +162,7 @@ const Header = () => {
             to="/submit"
             className="text-white hover:text-gray-300 py-2 px-4 block lg:inline-block"
           >
-            Submit New Manuscript <span></span>
+            Submit New Manuscript
           </Link>
         </nav>
       </div>
