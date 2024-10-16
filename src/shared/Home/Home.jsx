@@ -22,7 +22,7 @@ function Home() {
         <section>
 
 
-          <div class=" bg-[url('src/assets/Images/Herosection/innovate.jpg')] md:h-96 h-32 bg-cover bg-center">
+          <div class=" bg-[url('/images/Herosection/innovate.jpg')] md:h-96 h-32 bg-cover bg-center">
 
           </div>
 
@@ -58,7 +58,7 @@ function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-8 py-5">
                   <div className="max-w-full w-full">
                     <div className="flex gap-3 items-center mb-5">
-                      <img src="src/assets/Images/Herosection/Innovation.png" alt="" />
+                      <img src="/images/Herosection/Innovation.png" alt="" />
                       <p className="text-center text-[#E4B1F0]   text-xl font-bold">Digital Innovation</p>
                     </div>
 
@@ -97,218 +97,218 @@ function Home() {
 
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8 " src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8 " src="/images/Herosection/arr.png" alt="" />
                       <h1>  AI Integration</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Blockchain Solutions </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>     5G Impact</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   IoT Innovations </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Cloud Adoption</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Smart Manufacturing</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>    Fintech Evolution</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>    AR/VR Applications</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Digital Disruption</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Mobile Innovation </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Automation Trends</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Digital Transformation</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> E-commerce Advancements</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Data-Driven Innovation</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Smart Cities Tech</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Digital Payments</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Telemedicine Solutions</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Digital Customer Experience</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Cybersecurity Innovation</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Autonomous Systems</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Digital Supply Chain</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Machine Learning Tools</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Quantum Computing</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   SaaS Platforms </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Innovation Hubs</h1>
                     </h1>
 
                   </div>
                   <div className="max-w-full w-full">
                     <div className="flex gap-3 items-center mb-5">
-                      <img src="src/assets/Images/Herosection/Customer Insight.png" alt="" />
+                      <img src="/images/Herosection/Customer Insight.png" alt="" />
                       <p className="text-center text-[#E4B1F0] text-xl font-bold">Insight and Analytics</p>
                     </div>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Data-Driven Decisions</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Predictive Modeling</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Customer Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Real-Time Insights</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Big Data Impact</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Actionable Insights</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Sentiment Analysis</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>AI for Insights</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Marketing Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Financial Forecasting </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Machine Learning Insights</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Social Media Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Data Visualization</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Customer Experience Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Prescriptive Analytics</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Business Intelligence </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Data Mining Techniques</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Operational Analytics</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Descriptive Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Retail Analytics</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Predictive Customer Behavior</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>IoT Data Insights</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Cloud Analytics</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Competitive Intelligence</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Fraud Detection Analytics</h1>
                     </h1>
 
@@ -340,7 +340,7 @@ function Home() {
                   </div>
                   <div className="max-w-full w-full">
                     <div className="flex gap-3 items-center text-xl font-semibold mb-5">
-                      <img src="src/assets/Images/Herosection/System Information.png" alt="" />
+                      <img src="/images/Herosection/System Information.png" alt="" />
                       <p className="text-center text-[#E4B1F0] font-bold text-xl">Information </p>
                     </div>
                     <h1 className="flex items-center gap-2 mb-1">
@@ -348,106 +348,106 @@ function Home() {
                       <h1>Data Management</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Information Security</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Cloud Storage</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Data Privacy</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Cybersecurity Protocols</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Information Architecture </h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Encryption Standards</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Big Data Handling</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Knowledge Sharing </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Information Governance</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Metadata Management</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Digital Records</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Data Backup</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Information Retrieval</h1>
                     </h1>
 
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Data Classification</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  File Systems</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>
                         Information Lifecycle</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Content Management </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>   Data Warehousing</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Information Ethics </h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Database Management</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1> Data Integrity</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>  Information Flow</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>     Knowledge Management</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>    Information Access</h1>
                     </h1>
                   </div>
