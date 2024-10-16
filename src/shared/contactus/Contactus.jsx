@@ -20,9 +20,9 @@ function Contactus() {
                 </div>*/}
 
               <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
-                <div className=" dark:bg-gray-900 lg:px-20 lg:py-10 px-5 py-5">
+                <div className=" lg:px-20 lg:py-10 px-5 py-5">
                   <div className="py-8 lg:py-5 px-4 mx-auto max-w-screen-md bg-white rounded-3xl border border-slate-300  shadow shadow-primary-skyblue-color">
-                    <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900 dark:text-white fnt">
+                    <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900  fnt">
                       Contact Us
                     </h2>
 
@@ -30,7 +30,7 @@ function Contactus() {
                       <div>
                         <label
                           for="email"
-                          className="block mb-2 text-sm   text-gray-900 dark:text-gray-300"
+                          className="block mb-2 text-sm   text-gray-900 "
                         >
                           Name
                         </label>
@@ -39,7 +39,7 @@ function Contactus() {
                           name="name"
                           id="name"
                           ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5     "
                           placeholder="Enter Your Name"
                           required
                         />
@@ -47,7 +47,7 @@ function Contactus() {
                       <div>
                         <label
                           for="email"
-                          className="block mb-2 text-sm   text-gray-900 dark:text-gray-300"
+                          className="block mb-2 text-sm   text-gray-900 "
                         >
                           Email
                         </label>
@@ -56,7 +56,7 @@ function Contactus() {
                           name="email"
                           id="email"
                           ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5     "
                           placeholder="Enter Your Mail"
                           required
                         />
@@ -64,7 +64,7 @@ function Contactus() {
                       <div>
                         <label
                           for="email"
-                          className="block mb-2 text-sm   text-gray-900 dark:text-gray-300"
+                          className="block mb-2 text-sm   text-gray-900 "
                         >
                           Contact Number
                         </label>
@@ -73,7 +73,7 @@ function Contactus() {
                           name="number"
                           id="number"
                           ngModel
-                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5     "
                           placeholder="Enter Your Number"
                           required
                         />
@@ -91,7 +91,7 @@ function Contactus() {
                           name="message"
                           ngModel
                           rows="4"
-                          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500     "
                           placeholder="Leave a Message..."
                         ></textarea>
                       </div>
