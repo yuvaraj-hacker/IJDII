@@ -344,7 +344,7 @@ function Home() {
                       <p className="text-center text-[#E4B1F0] font-bold text-xl">Information </p>
                     </div>
                     <h1 className="flex items-center gap-2 mb-1">
-                      <img className="mt-1 w-8 h-8" src="src/assets/Images/Herosection/arr.png" alt="" />
+                      <img className="mt-1 w-8 h-8" src="/images/Herosection/arr.png" alt="" />
                       <h1>Data Management</h1>
                     </h1>
                     <h1 className="flex items-center gap-2 mb-1">
