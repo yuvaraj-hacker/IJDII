@@ -18,38 +18,39 @@ import PublicationEthic from "../shared/journal-overview/PublicationEthic";
 import AboutSpecial from "../shared/special-issues/AboutSpecial";
 import ProposeSpecial from "../shared/special-issues/ProposeSpecial";
 import PublishSpecial from "../shared/special-issues/PublishSpecial";
+import ScrollToTop from "./ScrollToTop";
 
 
 
 export default function Approuter() {
   return (
     <BrowserRouter>
-      
-        <Routes>
-          
-          <Route element={<Main />}>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/aim-nd-scope" element={<AimscopePage />} />
-            <Route path="/aboutus" element={<AboutusPage />} />
-            <Route path="/author-guidelines" element={<AuthorguidelinesPage />} />
-            <Route path="/call-for-papers" element={<CallforpaperPage />} />
-            <Route path="/contactus" element={<ContactusPage />} />
-            <Route path="/copyrights-form" element={<CopyrightsPage />} />
-            <Route path="/editorial-board" element={<EditorialboardPage />} />
-            <Route path="/issues" element={<IssuesPage />} />
-            <Route path="/pay-fees" element={<PayfeesPage/>} />
-            <Route path="/abstracting" element={<Abstracting/>} />
-            <Route path="/articleProcess" element={<ArticleProcess/>} />
-            <Route path="/journalreport" element={<JournalReport/>} />
-            <Route path="/peerreview" element={<PeerReview/>} />
-            <Route path="/publicationethic" element={<PublicationEthic/>} />
-            <Route path="/aboutspecial" element={<AboutSpecial/>} />
-            <Route path="/proposespecial" element={<ProposeSpecial/>} />
-            <Route path="/publishspecial" element={<PublishSpecial/>} />
-            
-          </Route>
-        </Routes>
-      
+      <ScrollToTop />
+      <Routes>
+
+        <Route element={<Main />}>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/aim-nd-scope" element={<AimscopePage />} />
+          <Route path="/aboutus" element={<AboutusPage />} />
+          <Route path="/author-guidelines" element={<AuthorguidelinesPage />} />
+          <Route path="/call-for-papers" element={<CallforpaperPage />} />
+          <Route path="/contactus" element={<ContactusPage />} />
+          <Route path="/copyrights-form" element={<CopyrightsPage />} />
+          <Route path="/editorial-board" element={<EditorialboardPage />} />
+          <Route path="/issues" element={<IssuesPage />} />
+          <Route path="/pay-fees" element={<PayfeesPage />} />
+          <Route path="/abstracting" element={<Abstracting />} />
+          <Route path="/articleProcess" element={<ArticleProcess />} />
+          <Route path="/journalreport" element={<JournalReport />} />
+          <Route path="/peerreview" element={<PeerReview />} />
+          <Route path="/publicationethic" element={<PublicationEthic />} />
+          <Route path="/aboutspecial" element={<AboutSpecial />} />
+          <Route path="/proposespecial" element={<ProposeSpecial />} />
+          <Route path="/publishspecial" element={<PublishSpecial />} />
+
+        </Route>
+      </Routes>
+
     </BrowserRouter>
   );
 }

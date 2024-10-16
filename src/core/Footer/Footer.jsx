@@ -3,7 +3,7 @@
 
 
 // export default function Footer() {
-  
+
 
 //   const scrollToTop = () => {
 //     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -75,17 +75,17 @@
 //           </div>
 //         </div>
 //         <hr className="my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-5 relative" />
-        
+
 //         <div className=" text-center p-2  ">
 //           <span className="text-sm  text-white dark:text-gray-400 ">© 2024 <a  onClick={scrollToTop} href="https://IJDIII.com/" className="hover:underline">IJDIII™</a>. All Rights Reserved.
 //           </span>
-         
+
 //       </div>
 //     </div>
 //     <div className='relative'><a href="https://IJDIII.com/aritms/index.php/IJDIII/about/submissions"><img src="logo/ojs_brand.png" alt="" className='drop-shadow-[] h-16 absolute right-10 bottom-20 md:bottom-2 2xl:right-80'/></a></div>
 // </footer>
 
-    
+
 //   );
 // }
 
@@ -96,8 +96,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#7E60BF] text-white  py-6">
-      <div className=" mx-auto px-5 max-w-[70rem]  " >
+    <footer className="bg-[#4b2d8b] text-white  py-6">
+      <div className=" mx-auto px-5 max-w-[80rem]  " >
         <div className="grid grid-cols-1   md:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div>
@@ -107,32 +107,41 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className='mx-auto text-center'>
+          <div className='lg:mx-auto lg:text-center'>
             <h4 className="text-xl font-bold mb-2">Resources</h4>
             <ul>
               <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="/about" className="hover:underline">About Us</a></li>
-              <li><a href="/contact" className="hover:underline">Contact Us</a></li>
+              <li><a href="/aboutus" className="hover:underline">About Us</a></li>
+              <li><a href="/contactus" className="hover:underline">Contact Us</a></li>
             </ul>
           </div>
 
 
-          <div className='ml-auto text-right'>
+          <div className='lg:ml-auto lg:text-right '>
             <h4 className="text-xl font-bold mb-2">Journal Overview</h4>
             <ul>
               <li><a href="/editorial-board" className="hover:underline">Editorial Board</a></li>
-              <li><a href="/peer-review-process" className="hover:underline">Peer Review Process</a></li>
-              <li><a href="/publication-ethics" className="hover:underline">Publication Ethics</a></li>
-              <li><a href="/abstracting-indexing" className="hover:underline">Abstracting and Indexing</a></li>
-              <li><a href="/article-processing-charges" className="hover:underline">Article Processing Charges</a></li>
+              <li><a href="/peerreview" className="hover:underline">Peer Review Process</a></li>
+              <li><a href="/publicationethic" className="hover:underline">Publication Ethics</a></li>
+              <li><a href="/abstracting" className="hover:underline">Abstracting and Indexing</a></li>
+              <li><a href="/articleProcess" className="hover:underline">Article Processing Charges</a></li>
             </ul>
           </div>
 
 
-          {/* Copyright */}
-          {/* <div className="text-center md:text-left">
-            <p>© 2024 IJDIII™. All Rights Reserved.</p>
-          </div> */}
+
+        </div>
+        <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
+        <div className='grid lg:grid-cols-3 grid-cols-1  items-center mt-5'>
+
+          <div>
+          </div>
+          <div className="text-center lg:mb-0 mb-5">
+            <p>© 2024 IJDII. All Rights Reserved.</p>
+          </div>
+          <div>
+            <img className='ml-auto w-24' src="src/assets/Images/Herosection/ojs_brand.png" alt="ojs" />
+          </div>
         </div>
       </div>
     </footer>

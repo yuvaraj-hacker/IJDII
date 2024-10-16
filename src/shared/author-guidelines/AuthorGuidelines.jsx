@@ -6,17 +6,17 @@ import { GrDocumentZip } from "react-icons/gr";
 
 function AuthorGuidelines() {
 
-    
+
 
   return (
     <>
 
-<section >
-    <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
-        <div className="lg:flex md:flex  gap-8 ">
+      <section className='lg:my-10 my-5'>
+        <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
+          <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full ">
-                <h1 className="text-primary-blue-color text-3xl font-bold ">Author Guidelines</h1>
-                <p className="py-5 mt-3 text-justify">
+              <h1 className="text-[#E4B1F0] text-center  text-3xl font-bold ">Author Guidelines</h1>
+              <p className="py-5 mt-3 text-justify">
                 IJDIII are peer-reviewed, community-driven research journals
                 covering the latest specialist topics at the emerging
                 intersections of IT and other fields. A general guide for how to
@@ -25,16 +25,16 @@ function AuthorGuidelines() {
                 IJDIII Editorial Board & Reviewers.
               </p>
               <h3 className="font-semibold mb-2">
-                  <i>Requirements for publishing in</i> IJDIII:
-                </h3>
+                <i>Requirements for publishing in</i> IJDIII:
+              </h3>
               <ul className="list-disc list-outside pl-5  text-justify">
-                
+
                 <li className="">
-                  The articles must be written by the correct IJDIII 
+                  The articles must be written by the correct IJDIII
                   <a
                     href="/documents/"
                     target="blank"
-                    className="text-blue-700 underline inline-flex ml-1 gap-1 items-center"
+                    className="text-[#4b2d8b] underline inline-flex ml-1 gap-1 items-center"
                   > {''} template < GrDocumentZip className="text-lg" /></a>
                 </li>
                 <li>
@@ -79,7 +79,7 @@ function AuthorGuidelines() {
                   The paper must be submitted through the
                   <a
                     href="https://IJDIII.com/aritms/index.php/IJDIII/about/submissions"
-                    className="text-blue-700 underline whitespace-nowrap"
+                    className="text-[#4b2d8b] underline whitespace-nowrap"
                   >
                     {" "}
                     Open Journal System
@@ -87,10 +87,10 @@ function AuthorGuidelines() {
                 </li>
               </ul>
               <h3 className="font-semibold mt-5 mb-2">
-                  <i>To submit a paper via OJS you will need:</i>{" "}
-                </h3>
+                <i>To submit a paper via OJS you will need:</i>{" "}
+              </h3>
               <ul className=" list-outside pl-5  list-disc text-justify mb-5">
-                
+
                 <li>
                   Your manuscript in the OpenOffice, Microsoft Word, or RTF
                   document file format.
@@ -101,7 +101,7 @@ function AuthorGuidelines() {
                   and requirements. For more information, please write to
                   <a
                     href="mailto:editor@IJDIII.com"
-                    className="text-blue-700 underline  "
+                    className="text-[#4b2d8b] underline  "
                   >
                     {" "}
                     editor@IJDIII.com.
@@ -110,14 +110,14 @@ function AuthorGuidelines() {
               </ul>
               <a
                 href="https://IJDIII.com/aritms/index.php/IJDIII/submission/wizard"
-                className="text-blue-700 underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"
+                className="text-[#4b2d8b] underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"
               >
                 Submit a paper via OJS
               </a>
-              <h1 className="text-xl font-semibold mb-2 mt-5">Article types</h1>
+              <h1 className="text-xl font-semibold mb-2 text-[#E4B1F0] mt-5">Article types</h1>
 
               <ul className="  list-outside pl-5 list-disc text-justify">
-                
+
                 <li>
                   Research article: Articles (4000-8000 words) that report
                   original research and which present objective, questions,
@@ -160,7 +160,7 @@ function AuthorGuidelines() {
                 </li>
               </ul>
 
-              <h1 className="text-xl font-semibold mt-5 mb-2">
+              <h1 className="text-xl font-semibold text-[#E4B1F0] mt-5 mb-2">
                 Benefits of IJDIII
               </h1>
               <h3 className="font-semibold mb-2">Open Access</h3>
@@ -190,18 +190,18 @@ function AuthorGuidelines() {
                 impact and exploitation potential of the published article.
               </p>
             </div>
-           
-           <Sidebar/>
 
+      
+
+          </div>
+
+     
         </div>
-       
-   <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
-    </div>
- 
-</section>
 
- 
-</>
+      </section>
+
+
+    </>
   )
 }
 

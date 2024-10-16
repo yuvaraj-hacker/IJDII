@@ -6,11 +6,11 @@ import { GrDocumentZip } from "react-icons/gr";
 function PeerReview() {
   return (
     <>
-      <section>
+      <section className="lg:my-10 my-5">
         <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5">
           <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full leading-relaxed">
-              <h1 className="text-primary-blue-color text-3xl font-bold ">
+              <h1 className="text-[#E4B1F0] text-3xl text-center font-bold ">
                 Peer Review Process
               </h1>
               <p className="py-5 mt-3 text-justify">
@@ -31,7 +31,7 @@ function PeerReview() {
                   <a
                     href="/documents/"
                     target="blank"
-                    className="text-blue-700 underline inline-flex ml-1 gap-1 items-center"
+                    className="text-[#4b2d8b] underline inline-flex ml-1 gap-1 items-center"
                   > {''} template < GrDocumentZip className="text-lg" /></a>
                 </li>
                 <li>
@@ -76,7 +76,7 @@ function PeerReview() {
                   The paper must be submitted through the
                   <a
                     href="https://IJDIII.com/aritms/index.php/IJDIII/about/submissions"
-                    className="text-blue-700 underline whitespace-nowrap"
+                    className="text-[#4b2d8b] underline whitespace-nowrap"
                   >
                     {" "}
                     Open Journal System
@@ -98,7 +98,7 @@ function PeerReview() {
                   and requirements. For more information, please write to
                   <a
                     href="mailto:editor@IJDIII.com"
-                    className="text-blue-700 underline  "
+                    className="text-[#4b2d8b] underline  "
                   >
                     {" "}
                     editor@IJDIII.com.
@@ -107,11 +107,11 @@ function PeerReview() {
               </ul>
               <a
                 href="https://IJDIII.com/aritms/index.php/IJDIII/submission/wizard"
-                className="text-blue-700 underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"
+                className="text-[#4b2d8b] underline underline-offset-1 hover:underline-offset-4 hover:text-blue-500 duration-200 pt-5"
               >
                 Submit a paper via OJS
               </a>
-              <h1 className="text-xl font-semibold mb-2 mt-5">Article types</h1>
+              <h1 className="text-xl font-semibold mb-2 mt-5 text-[#E4B1F0]">Article types</h1>
 
               <ul className="  list-outside pl-5  list-disc text-justify">
                 
@@ -157,7 +157,7 @@ function PeerReview() {
                 </li>
               </ul>
 
-              <h1 className="text-xl font-semibold mt-5 mb-2">
+              <h1 className="text-xl font-semibold mt-5 mb-2 text-[#E4B1F0]">
                 Benefits of IJDIII
               </h1>
               <h3 className="font-semibold mb-2">Open Access</h3>
@@ -190,7 +190,7 @@ function PeerReview() {
             <Sidebar />
           </div>
 
-          <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
+         
         </div>
       </section>
     </>

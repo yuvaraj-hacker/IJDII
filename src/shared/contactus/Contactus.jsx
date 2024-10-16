@@ -57,7 +57,7 @@ function Contactus() {
                           id="email"
                           ngModel
                           className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                          placeholder="name@gmail.com"
+                          placeholder="Enter Your Mail"
                           required
                         />
                       </div>
@@ -74,7 +74,7 @@ function Contactus() {
                           id="number"
                           ngModel
                           className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                          placeholder="Enter Your Mobile Number"
+                          placeholder="Enter Your Number"
                           required
                         />
                       </div>
@@ -119,10 +119,10 @@ function Contactus() {
               </div>
             </div>
 
-            <Sidebar />
+
           </div>
 
-          <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
+
         </div>
       </section>
     </>

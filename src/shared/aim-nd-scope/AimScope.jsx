@@ -13,11 +13,11 @@ function AimScope() {
 
 
 
-<section >
+<section  className='lg:my-10 my-5'>
     <div className="max-w-screen-xl mx-auto w-full px-5 2xl:px-0 py-5 min-h-[85vh] ">
         <div className="lg:flex md:flex  gap-8 ">
             <div className="max-w-full w-full">
-                <h1 className="text-primary-blue-color text-3xl font-bold ">Aim And Scope</h1>
+                <h1 className="text-[#E4B1F0] text-center  text-3xl font-bold ">Aim And Scope</h1>
                 <h1 className="font-semibold lg:text-xl mb-2 mt-8">Aim</h1>
                 <h1 className="  mb-3  text-justify leading-loose">International Journal of Advanced Research in Information Technology and
                   Management Science is an online open access journal, basically the aim of this journal to promote the
@@ -34,11 +34,11 @@ function AimScope() {
                  
                 
             </div>
-            <Sidebar/>
+           
 
         </div>
        
-   <h1 className="bg-slate-300 h-[1px] w-full mt-5"></h1>
+ 
     </div>
  
 </section>
